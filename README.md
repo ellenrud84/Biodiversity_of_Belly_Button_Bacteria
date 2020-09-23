@@ -10,7 +10,8 @@ Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly D
 
 
 ## Results:
-TODO add descriptions and pictures...
+A web dashboard was created to show details of a study of biodiversity of bacteria found in the navels of several test subjects.  A drop down menu allows the user to select any subject in the study. Once selected the metadata for the test selected test subject is displayed and the first and last charts are updated to show details about that subjects bacteria.  The second chart is static as is shows the top ten types of bacteria for all test subjects.  
+[![Image from Gyazo](https://i.gyazo.com/2e131367b4d0cdbaf967f7e3da3e340d.gif)](https://gyazo.com/2e131367b4d0cdbaf967f7e3da3e340d)
 
 ## Methods:
 The D3 library was used to read in the samples.json dataset. A horizontal bar chart was created using Plotly to display the top 10 OTUs (microbial species) for a single test subject. A dropdown was created to allow the user to select which test subject's data they would like to view.
